@@ -1,36 +1,71 @@
-# Calculator Project with JavaScript
+# 🧮 Calculator Project with JavaScript
 
-This tutorial guides you through building a sleek calculator using vanilla HTML, CSS, and JavaScript. Lets enjoy.
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-## Features
+Tutorial dan proyek ini memandu Anda untuk membangun kalkulator yang elegan dan responsif menggunakan HTML, CSS, dan JavaScript murni (*vanilla*). Proyek ini dirancang untuk pemula hingga tingkat menengah yang ingin memperdalam logika pemrograman web.
 
-- Addition, subtraction, multiplication, and division operations.
-- Clear functionality to reset the calculator.
-- Ability to delete the last character in the expression.
-- Support for decimal numbers.
-- Percentage calculations.
-- Toggle between positive and negative numbers.
+---
 
-## Learning Highlights
+## 📑 Daftar Isi
+- [Demo](#-demo)
+- [Fitur](#-fitur)
+- [Poin Pembelajaran](#-poin-pembelajaran-utama)
+- [Teknologi yang Digunakan](#-teknologi-yang-digunakan)
+- [Cara Menjalankan](#-cara-menjalankan-di-lokal)
+- [Struktur Folder](#-struktur-folder)
 
-Throughout this tutorial, you'll gain insights into various JavaScript logic concepts, including:
+---
 
-- Utilization of string methods.
-- Understanding of `isNaN` and `isFinite` functions.
-- Implementation of event listeners.
-- Usage of regular expressions.
-- Exploration of Math and Number objects.
-- Application of logical and comparison operators.
-- Introduction to the `eval` function.
+## 🚀 Demo
 
-## Tools Used
+Anda dapat melihat hasil akhir proyek ini melalui link berikut:
+**[Lihat Live Demo](https://username-anda.github.io/nama-repo-anda/)**
 
-- **GitHub:** [GitHub](https://github.com/)
-- **GitHub Desktop:** [GitHub Desktop](https://desktop.github.com/)
-- **VS Code:** [Visual Studio Code](https://code.visualstudio.com/)
-- **GitHub Pages:** [GitHub Pages](https://pages.github.com/)
-- **JavaScript Reference:** [MDN Web Docs](https://developer.mozilla.org/)
+*(Opsional: Tambahkan screenshot kalkulator di sini)*
+![Tampilan Kalkulator](./screenshot.png)
 
-This project not only enhances your JavaScript skills but also offers a valuable addition to your portfolio. Dive in and start building your own sleek calculator today!
+---
 
-Feel free to contribute to this project or provide feedback.
+## ✨ Fitur
+
+Kalkulator ini dilengkapi dengan fungsionalitas lengkap:
+- ✅ **Operasi Dasar:** Penjumlahan, pengurangan, perkalian, dan pembagian.
+- 🧹 **Clear All (AC):** Mereset kalkulator sepenuhnya.
+- 🔙 **Delete:** Menghapus karakter terakhir (backspace).
+- 🔢 **Desimal:** Mendukung perhitungan angka berkoma.
+- 📉 **Persentase:** Menghitung nilai persen dengan mudah.
+- ➕/➖ **Toggle Sign:** Mengubah angka positif menjadi negatif dan sebaliknya.
+
+---
+
+## 🧠 Poin Pembelajaran Utama
+
+Melalui pembuatan proyek ini, konsep logika JavaScript yang diterapkan meliputi:
+
+1. **Manipulasi String:** Menggunakan metode string untuk input data.
+2. **Validasi Data:** Memahami fungsi `isNaN` dan `isFinite` untuk mencegah error.
+3. **DOM Manipulation:** Implementasi *event listeners* pada tombol.
+4. **Logika Matematika:** Eksplorasi objek `Math` dan `Number`.
+5. **Evaluasi Ekspresi:** Pengenalan fungsi `eval` (dengan catatan keamanan) atau algoritma perhitungan manual.
+
+---
+
+## 🛠 Teknologi yang Digunakan
+
+- **HTML5:** Struktur semantik aplikasi.
+- **CSS3:** Styling modern dan tata letak responsif (Flexbox/Grid).
+- **JavaScript (ES6+):** Logika fungsional kalkulator.
+- **VS Code:** Editor kode.
+- **GitHub:** Manajemen versi dan hosting.
+
+---
+
+## 💻 Cara Menjalankan di Lokal
+
+Ikuti langkah ini untuk menjalankan proyek di komputer Anda:
+
+1. **Clone repositori ini:**
+   ```bash
+   git clone [https://github.com/username-anda/nama-repo-kalkulator.git](https://github.com/username-anda/nama-repo-kalkulator.git)
